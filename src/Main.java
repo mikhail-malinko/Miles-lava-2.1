@@ -7,7 +7,7 @@ public class Main {
 //        System.out.println("Бонусные мили: " + freeMiles);
 
         BonusMilesService service = new BonusMilesService();
-        int price = 35_710;
+        int price = 35710;
         int miles = service.calculate(price);
         System.out.println(miles);
 
